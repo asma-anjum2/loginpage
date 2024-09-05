@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In Page</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+   <style>
+    .image{
+    
+     float: left;
+    }
+    .registration-form{
+       
+        display: inline-block;
+        margin-top: 60px;
+        padding: 20px;
+    }
+   </style>
+</head>
+
+<body>
+    <section>
+        <div class="container">
+            <div class="image">
+                <img src="/image2.jpg" alt="">
+            </div>
+            <form class="registration-form">
+                <h2>Login Form</h2>
+                <div class="form-group">
+                 <!-- <label for="username">Username <i class="fa-solid fa-user fa-2xs"></i></label>  -->
+                 <!-- Username <i class="fa-solid fa-user fa-2xs"></i> -->
+                    <input type="text" id="username"  name="username" class="underline" placeholder="Username" >
+                    <i class="fa-solid fa-user fa-lg"></i>
+                    <!-- <i class="fa-solid fa-user fa-xs"></i> -->
+                    
+
+                    <!-- <input type="text" placeholder="Username"  class="form-control"> -->
+                </div>
+                <div class="form-group">
+                    <!-- <label for="email">Email Address<i class="fa-solid fa-envelope fa-2xs"></i> </label> -->
+                    <input type="email" id="email" name="email" class="underline" placeholder="Email" required>
+                    <i class="fa-solid fa-envelope"></i>
+                </div>
+                <div class="form-group">
+                    <!-- <label for="password">Password <i class="fa-solid fa-lock fa-2xs"></i></label> -->
+                    <input type="password" id="password" name="password" class="underline" placeholder="Password"required>
+                </div>
+                <button type="submit">Register &nbsp;<i class="fa-solid fa-arrow-right-to-bracket fa-sm"></i></button>
+                <div class="form-link">
+                    <p class="signin-link">Don't have an account? <a href="index.html">Register</a></p>
+                </div>
+            </form>
+            
+        </div>
+
+    </section>
+</body>
+
+</html>

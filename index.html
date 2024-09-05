@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <style>
+        .registration-form{
+            padding: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <section class="container">
+
+        <form class="registration-form">
+            <h2>Registration Form</h2>
+            <div class="form-group">
+                <!-- <label for="name">Name</label> -->
+                <input type="text" id="name" name="name" class="underline" placeholder="Name" required>
+                <i class="fa-solid fa-user fa-lg"></i>
+            </div>
+            <div class="form-group">
+                <!-- <label for="username">Username <i class="fa-solid fa-user fa-2xs"></i></label> -->
+                <input type="text" id="username" name="username" class="underline" placeholder="Username" required>
+                <i class="fa-solid fa-user fa-lg"></i>
+
+                <!-- <input type="text" placeholder="Username"  class="form-control"> -->
+            </div>
+            <div class="form-group">
+                <!-- <label for="gender">Gender</label> -->
+                <select id="gender" name="gender" class="underline" placeholder="gender" required>
+                    <option value="">Select...</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <!-- <label for="email">Email Address<i class="fa-solid fa-envelope fa-2xs"></i> </label> -->
+                <input type="email" id="email" name="email" class="underline" placeholder="email" required>
+                <i class="fa-solid fa-envelope"></i>
+
+            </div>
+            <div class="form-group">
+                <!-- <label for="password">Password <i class="fa-solid fa-lock fa-2xs"></i></label> -->
+                <input type="password" id="password" name="password" class="underline" placeholder="password" required>
+            </div>
+            <div class="form-group">
+                <!-- <label for="confirm-password">Confirm <i class="fa-solid fa-lock fa-2xs"></i></label> -->
+                <input type="password" id="confirm-password" name="confirm-password" class="underline"
+                    placeholder="confirm-password" required>
+            </div>
+            <button type="submit">Register &nbsp;<i class="fa-solid fa-arrow-right-to-bracket fa-sm"></i></button>
+            <div class="form-link">
+                <p class="signin-link">Do you have an account? <a href="login.html">login</a></p>
+            </div>
+        </form>
+        <div class="image">
+                <img src="image2.jpg" alt="" srcset="" >
+        </div>
+
+
+    </section>
+</body>
+
+</html>
